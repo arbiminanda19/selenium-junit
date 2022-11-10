@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6489cf74-b9bd-4830-b8ff-4df8f9886e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sauceTest/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sauceTest/logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sauceTest/sauceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sauceTest/sauceTestHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sauceTest/successBuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/geckodriver" afterDir="false" />
+    <list default="true" id="6489cf74-b9bd-4830-b8ff-4df8f9886e77" name="Changes" comment="simple and using tag">
+      <change afterPath="$PROJECT_DIR$/src/test/java/monitorApp/deleteData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,22 @@
       <recent name="sauceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sauceTestHooks">
+  <component name="RunManager" selected="JUnit.deleteData">
+    <configuration name="deleteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cilsy-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="monitorApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="monitorApp" />
+      <option name="MAIN_CLASS_NAME" value="monitorApp.deleteData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sauceTest in cilsy-selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cilsy-selenium" />
       <extension name="coverage">
@@ -133,31 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="cilsy-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sauceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sauceTest" />
-      <option name="MAIN_CLASS_NAME" value="sauceTest.sauceTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.deleteData" />
         <item itemvalue="JUnit.sauceTestHooks" />
         <item itemvalue="JUnit.sauceTest in cilsy-selenium" />
         <item itemvalue="JUnit.sauceTest" />
         <item itemvalue="TestNG.sauceTest" />
-        <item itemvalue="TestNG.sauceTest.login" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668042048163</updated>
     </task>
+    <task id="LOCAL-00001" summary="simple and using tag">
+      <created>1668092268804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668092268804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,15 +176,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/sauceTest/sauceTestHooks.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="simple and using tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple and using tag" />
   </component>
 </project>
