@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6489cf74-b9bd-4830-b8ff-4df8f9886e77" name="Changes" comment="simple and using tag">
-      <change afterPath="$PROJECT_DIR$/src/test/java/monitorApp/deleteData.java" afterDir="false" />
+    <list default="true" id="6489cf74-b9bd-4830-b8ff-4df8f9886e77" name="Changes" comment="handling alert">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/env.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/RunLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/onBoarding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +65,61 @@
       <recent name="sauceTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.deleteData">
+  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cilsy-selenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Ensure user successfully Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cilsy-selenium" />
+      <option name="NAME_FILTER" value="^Ensure user successfully Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Ensure user successfully Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Ensure user successfully Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cilsy-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="deleteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cilsy-selenium" />
       <extension name="coverage">
@@ -70,35 +130,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="monitorApp" />
       <option name="MAIN_CLASS_NAME" value="monitorApp.deleteData" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sauceTest in cilsy-selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cilsy-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sauceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sauceTest" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sauceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cilsy-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sauceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sauceTest" />
-      <option name="MAIN_CLASS_NAME" value="sauceTest.sauceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,30 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="cilsy-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sauceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sauceTest" />
-      <option name="MAIN_CLASS_NAME" value="sauceTest.sauceTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.deleteData" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="JUnit.RunLogin" />
+        <item itemvalue="Cucumber Java.Scenario: Ensure user successfully Login" />
         <item itemvalue="JUnit.sauceTestHooks" />
-        <item itemvalue="JUnit.sauceTest in cilsy-selenium" />
-        <item itemvalue="JUnit.sauceTest" />
-        <item itemvalue="TestNG.sauceTest" />
+        <item itemvalue="JUnit.deleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668092268804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="handling alert">
+      <created>1668122225254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668122225254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple and using tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple and using tag" />
+    <MESSAGE value="handling alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling alert" />
   </component>
 </project>
